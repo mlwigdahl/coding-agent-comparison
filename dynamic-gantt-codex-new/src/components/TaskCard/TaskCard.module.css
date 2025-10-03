@@ -1,0 +1,50 @@
+.card {
+  background: var(--task-background);
+  border: 1px solid var(--task-border);
+  border-radius: 9999px;
+  color: var(--color-text-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 56px;
+  padding: 0.75rem 1rem 1.1rem;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.25);
+  width: 100%;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.name {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.progress {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.progressBar {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+  height: 4px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.progressIndicator {
+  background-color: var(--color-progress);
+  height: 100%;
+  transform-origin: left center;
+}
+
+a.cardButton {
+  color: inherit;
+}

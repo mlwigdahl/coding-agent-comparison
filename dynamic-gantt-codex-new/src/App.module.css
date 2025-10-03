@@ -1,0 +1,10 @@
+.importAlert {
+  background: rgba(248, 113, 113, 0.16);
+  border: 1px solid rgba(248, 113, 113, 0.35);
+  border-radius: 0.75rem;
+  color: #fca5a5;
+  font-size: 0.9rem;
+  margin: 1rem auto 0;
+  max-width: 960px;
+  padding: 0.85rem 1rem;
+}

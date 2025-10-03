@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic app-level styles */
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply text-gray-900 antialiased;
+}
+
+/* Simple fade-in for newly mounted task items */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-fade-in {
+  animation: fade-in 300ms ease-out;
+}

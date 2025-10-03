@@ -1,0 +1,24 @@
+.laneGrid {
+  display: grid;
+  grid-auto-rows: 72px;
+  grid-template-columns: repeat(var(--quarter-count), minmax(0, 1fr));
+  padding: 0.5rem 0;
+  position: relative;
+  column-gap: 0;
+  row-gap: 0.75rem;
+}
+
+.taskWrapper {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.yearDivider {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(148, 163, 184, 0.2);
+}
